@@ -1,4 +1,4 @@
-package tests;
+package tests.p01_Pratice;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
