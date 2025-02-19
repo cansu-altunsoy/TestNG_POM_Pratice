@@ -27,6 +27,8 @@ public class FilmArama {
         System.out.println("Aradığınız "+filmName+" için bulunan sonuç sayısı"+obj.result.getText());
         //Driver.quitDriver();
     }
+
+
     @Test
     public void test02(){
         Driver.getDriver().get(ConfigReader.getProperty("babayigitUrl"));
@@ -37,6 +39,8 @@ public class FilmArama {
         System.out.println("Aradığınız "+filmName+" için bulunan sonuç sayısı"+obj.result.getText());
         // Driver.quitDriver();
     }
+
+
     @Test
     public void test03(){
         Driver.getDriver().get(ConfigReader.getProperty("babayigitUrl"));
@@ -47,4 +51,5 @@ public class FilmArama {
         System.out.println("Aradığınız "+filmName+" için bulunan sonuç sayısı"+obj.result.getText());
         Driver.quitDriver();
     }
+
 }

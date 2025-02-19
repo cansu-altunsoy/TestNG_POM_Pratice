@@ -31,4 +31,5 @@ public class Assertion {
         softAssert.assertAll();
         Driver.quitDriver();
     }
+
 }
