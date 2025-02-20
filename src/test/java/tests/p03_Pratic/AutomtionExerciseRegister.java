@@ -12,6 +12,7 @@ public class AutomtionExerciseRegister {
 
     @Test
     public void aEregister() throws InterruptedException {
+
         Driver.getDriver().get(ConfigReader.getProperty("aEUrl"));
         AutomtionExercisePage automtionExercisePage=new AutomtionExercisePage();
         Faker faker=new Faker();
